@@ -37,7 +37,7 @@ for i in 1..n*n do{
 const start = getCurrentTime(TimeUnits.milliseconds);
 
 forall e in GPU(1..n, GPUCallBack, CPU_percentage) {
-//Here  goes a CPU  function  that is the  equivalent  tothe  kernel  function
+//Here  goes a CPU  function  that is the  equivalent  to the  kernel  function
 }
 
 run_time = getCurrentTime(TimeUnits.milliseconds) - start;
